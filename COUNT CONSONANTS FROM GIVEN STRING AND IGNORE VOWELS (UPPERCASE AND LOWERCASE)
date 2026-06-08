@@ -1,0 +1,15 @@
+char="s"
+lw=0
+up=0
+while(char not in "AEIOUaeiou"):
+   
+    char=input("enter the characters: ")
+    if char in "AEIOUaeiou":
+        break
+    elif char.islower():
+        up=up+1
+       
+    else:
+       lw=lw+1
+print(lw) 
+print(up)
