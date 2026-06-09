@@ -1,0 +1,35 @@
+def rect(length,breadth):
+    area=length*breadth
+    print("area of rectangle is:",area)
+    
+def triangle(length,breadth):
+    area=breadth*length*0.5
+    print("area of triangle:",area)
+
+def square(length):
+    area=length*length
+    print("area of square:",area)
+    
+def circle(radius):
+    area=3.14*radius*radius
+    print("area of circle:",area)
+    
+print("press 1 for rectangle:")
+print("press 2 for triangle: ")
+print("press 3 for square: ")
+print("press 4 for circle: ")
+num=int(input("Enter the number:"))
+if num==1:
+    length=int(input("enter the length:"))
+    breadth=int(input("enter the breadth:"))
+    rect(length,breadth)
+if num==2:
+    length=int(input("enter lenght of triangle: "))
+    breadth=int(input("enter breadth of triangle: "))
+    triangle(length,breadth)
+if num==3:
+    lenght=int(input("enter the length of square:"))
+    square(length)
+if num==4:
+    radius=int(input("enter the radius of the circle:"))
+    circle(radius)
