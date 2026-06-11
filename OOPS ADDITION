@@ -1,0 +1,15 @@
+class abc:
+    dept="cse"
+    def set_dim(self):
+        x=int(input("Enter value of x:"))
+        y=int(input("Enter value of y: "))
+        self.a=x
+        self.b=y
+    def display(self):
+        print(self.a+self.b)
+        print(abc.dept)
+        
+
+a1=abc()
+a1.set_dim()
+a1.display()
