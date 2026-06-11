@@ -1,0 +1,4 @@
+A=["dhoni","virat","rohit","rahul","sanju"]
+num=[7,18,45,1,11]
+res=list(zip(A,num))
+print(res)
