@@ -1,0 +1,8 @@
+num=int(input("Enter number:"))
+fact=1
+if fact<=0:
+    print("the factorial of zero is one")
+else:
+    for i in range(1,num+1):
+        fact=fact*i
+    print(fact)
