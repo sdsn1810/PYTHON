@@ -1,0 +1,10 @@
+def sud(n):
+    if n==1:
+        return 1
+    else:
+        return n+ sud(n-1)
+
+
+n=int(input("Enter how many numbers:"))
+x=sud(n)
+print(x)
